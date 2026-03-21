@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    background-color: black;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+.menu-card {
+    border: 1px solid white;
+    height: 2500px;
+    width: 1300px;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.logo img {
+    height: 90px;
+    width: 90px;
+}
+
+.flat {
+    background-color:  #FFC72C;
+    border-radius: 15px;
+    height: 70px;
+    width: 120px;
+    position: relative;
+    bottom: 90px;
+    left: 70%;
+}
+
+
+.flat .at {
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flat .price {
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    bottom: 50%;
+}
+
+
+.gourmet-meals {
+    color: #FFC72C;
+    font-weight: 700;
+    font-size: 45px;
+    position: relative;
+    bottom: 210px;
+    left: 15px;
+}
+
+.savings {
+    color: #FFC72C;
+    font-weight: 600;
+    font-size: 28px;
+    position: relative;
+    bottom: 250px;
+    left: 15px;
+}
+
+
+.savings .large-text {
+    font-size: 45px;
+    position: relative;
+    left: 190px;
+    bottom: 100px;
+}
+
+.header-food {
+    display: flex;
+    position: relative;
+    bottom: 350px;
+    left: 15px;
+}
+
+.mc-cheese {
+    position: relative;
+    left: 60px;
+}
+
+.mc-spicy {
+    position: relative;
+    left: 120px;
+}
+
+
+ .name {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+ .line hr {
+    width: 300px;
+    margin-left: 00px;
+    filter: blur(1px);
+}
+
+ .veg img {
+    height: 30px;
+    width: 30px;
+}
+
+ .veg p {
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+}
+
+.non-veg {
+    left: 100px;
+    position: relative;
+    bottom: 95px;
+}
+
+ .non-veg img {
+    height: 30px;
+    width: 30px;
+}
+
+
+ .non-veg p {
+    color: white;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+
+ .pic img {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    bottom: 300px;
+    right: 50px;
+}
+
+.divider {
+    height: 5px;
+    background: #FFC72C;
+    position: relative;
+    bottom: 675px;
+}
+
+
+.main-section-text p{
+    color: #FFC72C;
+}
+
+.main-section-text {
+    position: relative;
+    bottom: 650px;
+}
+
+
+
+.main-section-text .extra-value {
+    font-weight: 750;
+    font-size: 40px;
+    display: inline;
+    margin-left: 25px;
+}
+
+.main-section-text .assured {
+    display: inline;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main-section-text .amount {
+    display: inline;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* First Line Designing */
+
+.paneer-meal {
+    position: relative;
+    bottom: 550px;
+    left: 150px;
+}
+
+
+.paneer-meal .icon {
+    display: inline;
+}
+
+
+.paneer-meal .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.paneer-meal .name p{
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+.paneer-meal .price {
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    position: relative;
+    left: 280px;
+    bottom: 125px;
+    text-decoration: line-through;
+}
+
+.paneer-meal .new-price {
+    display: inline;
+    color: #FFC72C;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 295px;
+    bottom: 125px;
+}
+
+.paneer-meal .meal-image img{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    bottom: 250px;
+    right: 50px;
+}
+
+
+.chicken-meal {
+    position: relative;
+    bottom: 1125px;
+    left: 600px;
+}
+
+.chicken-meal .icon {
+    display: inline;
+}
+
+.chicken-meal .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.chicken-meal .name p {
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+.price p{
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    position: relative;
+    left: 280px;
+    bottom: 125px;
+    text-decoration: line-through;
+}
+
+.new-price p{
+    display: inline;
+    color: #FFC72C;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 350px;
+    bottom: 155px;
+}
+
+.meal-image img{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    bottom: 240px;
+}
+
+/* Second Line Designing */
+
+.veggie {
+    position: relative;
+    bottom: 1300px;
+    left: 30px;
+}
+
+
+.veggie .icon {
+    display: inline;
+}
+
+
+.veggie .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.veggie .name p{
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+.veggie .price {
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    position: relative;
+    left: 280px;
+    bottom: 125px;
+    text-decoration: line-through;
+}
+
+.veggie .new-price {
+    display: inline;
+    color: #FFC72C;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 295px;
+    bottom: 125px;
+}
+
+.veggie .meal-image img{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    bottom: 250px;
+    right: 50px;
+}
+
+.chicken-burger {
+    position: relative;
+    left: 460px;
+    bottom: 1885px
+}
+
+.chicken-burger .icon {
+    display: inline;
+}
+
+.chicken-burger .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.chicken-burger .name p {
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+.price p{
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    position: relative;
+    left: 280px;
+    bottom: 125px;
+    text-decoration: line-through;
+}
+
+.new-price p{
+    display: inline;
+    color: #FFC72C;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 350px;
+    bottom: 155px;
+}
+
+.meal-image img{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    bottom: 240px;
+}
+
+.corn-cheese-meal {
+    position: relative;
+    bottom: 2480px;
+    left: 900px;
+}
+
+.corn-cheese-meal .icon {
+    display: inline;
+}
+
+
+.corn-cheese-meal .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.corn-cheese-meal .name p{
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+.corn-cheese-meal .price {
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    position: relative;
+    left: 280px;
+    bottom: 125px;
+    text-decoration: line-through;
+}
+
+.corn-cheese-meal .new-price {
+    display: inline;
+    color: #FFC72C;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 295px;
+    bottom: 125px;
+}
+
+.corn-cheese-meal .meal-image img{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    bottom: 250px;
+    right: 50px;
+}
+
+/* Beverages */
+
+.beverage.divider {
+    position: relative;
+    bottom: 2700px;
+}
+
+
+.drinks-text p{
+    color: #FFC72C;
+    font-weight: 700;
+    font-size: 35px;
+    position: relative;
+    bottom: 2700px;
+    left: 20px;
+}
+
+.berry {
+    position: relative;
+    bottom: 2700px;
+    left: 20px;
+}
+
+.berry .icon {
+    display: inline;
+}
+
+
+.berry .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.berry .name p{
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+
+.berry .new-price {
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 90px;
+    bottom: 85px;
+}
+
+.berry .drink-image img{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    bottom: 110px;
+    right: 20px;
+}
+
+.capp {
+    position: relative;
+    bottom: 3250px;
+    left: 300px;
+}
+
+.capp .icon {
+    display: inline;
+}
+
+
+.capp .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.capp .name p{
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+
+.capp .new-price {
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 90px;
+    bottom: 85px;
+}
+
+.capp .drink-image img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: 110px;
+    right: 20px;
+}
+
+
+.straw {
+    position: relative;
+    left: 600px;
+    bottom: 3800px;
+}
+
+
+
+.straw .icon {
+    display: inline;
+}
+
+
+.straw .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.straw .name p{
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+
+.straw .new-price {
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 90px;
+    bottom: 85px;
+}
+
+.straw .drink-image img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: 110px;
+    right: 20px;
+}
+
+.lemon {
+    position: relative;
+    bottom: 4350px;
+    left: 950px;
+}
+
+
+.lemon .icon {
+    display: inline;
+}
+
+
+.lemon .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.lemon .name p{
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+
+.lemon .new-price {
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 90px;
+    bottom: 85px;
+}
+
+.lemon .drink-image img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: 110px;
+    right: 20px;
+}
+
+
+
+
+.kitkat {
+    position: relative;
+    bottom: 4450px;
+    left: 300px;
+}
+
+
+.kitkat .icon {
+    display: inline;
+}
+
+
+.kitkat .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.kitkat .name p{
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+
+.kitkat .new-price {
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 90px;
+    bottom: 85px;
+}
+
+.kitkat .drink-image img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: 110px;
+    right: 120px;
+}
+
+.iced-coffee {
+    position: relative;
+    bottom: 5000px;
+    left: 650px;
+}
+
+
+.iced-coffee .icon {
+    display: inline;
+}
+
+
+.iced-coffee .icon img{
+    height: 25px;
+    width: 25px;
+}
+
+.iced-coffee .name p{
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+
+
+.iced-coffee .new-price {
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    left: 90px;
+    bottom: 85px;
+}
+
+.iced-coffee .drink-image img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: 110px;
+    right: 20px;
+}
+
+
+
+/* This projects ends here  */
+
