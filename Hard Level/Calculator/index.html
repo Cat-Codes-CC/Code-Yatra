@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Simple Calculator</h1>
+        <div class="instruct">
+            Enter Your First Number and Second Number, add select an operation. Get The Results
+        </div>
+        <div class="first-num">
+            <label for="num1">Enter Your First Number:</label> <br>
+            <input type="number" id="num1" placeholder="0">
+        </div>
+        <div class="sec-num">
+            <label for="num2">Enter Your Second Number:</label> <br>
+            <input type="number" id="num2" placeholder="0">
+        </div>
+        <div class="operations">
+            <label for="operators">Select An Operation</label> <br>
+            <select id="operators" onchange="calculate()">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        </div>
+        <div class="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
