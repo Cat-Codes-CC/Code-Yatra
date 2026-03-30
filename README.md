@@ -20,11 +20,17 @@ Code-Yatra/
 │   ├── Color Palette/
 │   ├── ID Card/
 │   └── Restaurant Menu/
-└── Medium Level/
-    ├── Friend Profile Card/
-    ├── Music-Player/
-    ├── Photo Gallery/
-    └── Portfolio Landing Page/
+├── Medium Level/
+│   ├── Friend Profile Card/
+│   ├── Music-Player/
+│   ├── Photo Gallery/
+│   └── Portfolio Landing Page/
+└── Hard Level/
+    ├── Calculator/
+    ├── Digital Clock/
+    ├── Portfolio_Dark_Light_Mode/
+    ├── Stone_Paper_Scissors/
+    └── To_Do_List App/
 ```
 
 ---
@@ -76,6 +82,37 @@ A responsive photo gallery with a lightbox/modal view. Practices CSS Grid, JavaS
 
 #### 🚀 Portfolio Landing Page
 A complete personal portfolio landing page with sections for hero, about, projects, and contact. Practices full-page layout, responsive design, smooth scrolling, and navigation.
+
+---
+
+## 🔴 Hard Level
+
+Advanced projects involving JavaScript logic, state management, APIs, and polished UI/UX.
+
+| # | Project | Source Code | Live Demo |
+|---|---------|-------------|-----------|
+| 08 | 🧮 Calculator | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Hard%20Level/Calculator) | [Live Demo](https://cat-codes-cc.github.io/Code-Yatra/Hard%20Level/Calculator/index.html) |
+| 09 | 🕐 Digital Clock | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Hard%20Level/Digital%20Clock) | [Live Demo](https://cat-codes-cc.github.io/Code-Yatra/Hard%20Level/Digital%20Clock/index.html) |
+| 10 | 🌗 Portfolio Dark/Light Mode | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Hard%20Level/Portfolio_Dark_Light_Mode) | [Live Demo](https://cat-codes-cc.github.io/Code-Yatra/Hard%20Level/Portfolio_Dark_Light_Mode/index.html) |
+| 11 | ✂️ Stone Paper Scissors | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Hard%20Level/Stone_Paper_Scissors) | [Live Demo](https://cat-codes-cc.github.io/Code-Yatra/Hard%20Level/Stone_Paper_Scissors/index.html) |
+| 12 | ✅ To-Do List App | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Hard%20Level/To_Do_List%20App) | [Live Demo](https://cat-codes-cc.github.io/Code-Yatra/Hard%20Level/To_Do_List%20App/index.html) |
+
+### Project Descriptions
+
+#### 🧮 Calculator
+A fully functional calculator with support for basic arithmetic operations. Practices JavaScript logic, event handling, and building interactive UI components from scratch.
+
+#### 🕐 Digital Clock
+A live digital clock that displays the current time updated every second. Practices the JavaScript `Date` object, `setInterval`, and real-time DOM updates.
+
+#### 🌗 Portfolio Dark/Light Mode
+A portfolio page with a toggleable dark/light mode theme. Practices CSS custom properties (variables), theme switching with JavaScript, and localStorage for persisting user preference.
+
+#### ✂️ Stone Paper Scissors
+A playable Stone Paper Scissors game against the computer with score tracking. Practices JavaScript game logic, random number generation, conditional statements, and DOM manipulation.
+
+#### ✅ To-Do List App
+A complete to-do list app with add, complete, and delete functionality. Practices CRUD operations in the DOM, localStorage for data persistence, and dynamic list rendering.
 
 ---
 
