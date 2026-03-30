@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background: #0a0a14;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: 'Courier New', monospace;
+            transition: all 2s ease;
+        }
+
+        #clock {
+            font-size: clamp(3rem, 12vw, 7rem);
+            font-weight: 700;
+            color: #00ff88;
+            letter-spacing: 8px;
+            text-shadow: 0 0 30px rgba(0, 255, 136, 0.5);
+        }
+
+        #ampm {
+            font-size: 1.5rem;
+            color: #555;
+            margin-top: 8px;
+        }
+
+        #dateStr {
+            color: #444;
+            margin-top: 12px;
+        }
+
+
+    </style>
+
+    <div id="clock">00:00:00</div>
+    <div id="ampm">AM</div>
+    <div id="dateStr"></div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+
+            
+            let h = now.getHours();
+            let m = now.getMinutes();
+            let s = now.getSeconds();
+            let ampm = h >= 12 ? 'PM' : 'AM';
+
+            h = h % 12 || 12;
+            
+            let hStr = String(h).padStart(2, '0');
+            let mStr = String(m).padStart(2, '0');
+            let sStr = String(s).padStart(2, '0');
+
+            
+            document.getElementById('clock').textContent = `${hStr}:${mStr}:${sStr}`;
+            document.getElementById('ampm').textContent = ampm;
+            document.getElementById('dateStr').textContent = now.toDateString();
+
+            if (ampm === 'PM') {
+                document.body.style.background = 'black';
+            } else {
+                document.body.style.background = 'white';
+            }
+
+        }
+        updateClock();
+        setInterval(updateClock, 1000);
+    </script>

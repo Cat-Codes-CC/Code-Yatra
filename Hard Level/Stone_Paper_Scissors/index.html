@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="name">
+        <h1>Stone Paper Scissors</h1>
+    </div>
+    <div class="players">
+        <p id="human">
+            <span>You: </span>  
+            0
+        </p>
+        <p id="bot">
+            <span>Computer:</span>
+            0
+        </p>
+    </div>
+
+    <div class="options">
+        <button onclick="show_results()" id="stone">Stone</button>
+        <button onclick="show_results()" id="paper">Paper</button>
+        <button onclick="show_results()" id="scissors">Scissors</button>
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
