@@ -25,12 +25,14 @@ Code-Yatra/
 │   ├── Music-Player/
 │   ├── Photo Gallery/
 │   └── Portfolio Landing Page/
-└── Hard Level/
-    ├── Calculator/
-    ├── Digital Clock/
-    ├── Portfolio_Dark_Light_Mode/
-    ├── Stone_Paper_Scissors/
-    └── To_Do_List App/
+├── Hard Level/
+│   ├── Calculator/
+│   ├── Digital Clock/
+│   ├── Portfolio_Dark_Light_Mode/
+│   ├── Stone_Paper_Scissors/
+│   └── To_Do_List App/
+└── Expert Level/
+    └── Weather App/
 ```
 
 ---
@@ -113,6 +115,21 @@ A playable Stone Paper Scissors game against the computer with score tracking. P
 
 #### ✅ To-Do List App
 A complete to-do list app with add, complete, and delete functionality. Practices CRUD operations in the DOM, localStorage for data persistence, and dynamic list rendering.
+
+---
+
+## 🟣 Expert Level
+
+Expert projects involving third-party APIs, asynchronous JavaScript, and real-world app features.
+
+| # | Project | Source Code | Live Demo |
+|---|---------|-------------|-----------|
+| 13 | 🌦️ Weather App | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Expert%20Level/Weather%20App) | [Live Demo](https://cat-codes-cc.github.io/Code-Yatra/Expert%20Level/Weather%20App/index.html) |
+
+### Project Descriptions
+
+#### 🌦️ Weather App
+A real-time weather app that fetches live weather data for any city using a third-party weather API. Practices `fetch`, `async/await`, API integration, JSON parsing, error handling, and dynamic DOM updates based on API responses.
 
 ---
 
