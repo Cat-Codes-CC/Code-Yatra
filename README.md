@@ -124,12 +124,14 @@ Expert projects involving third-party APIs, asynchronous JavaScript, and real-wo
 
 | # | Project | Source Code | Live Demo |
 |---|---------|-------------|-----------|
-| 13 | 🌦️ Weather App | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Expert%20Level/Weather%20App) | [Live Demo](https://cat-codes-cc.github.io/Code-Yatra/Expert%20Level/Weather%20App/index.html) |
+| 13 | 🌦️ Weather App | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Expert%20Level/Weather%20App) | [🔒 Requires API Key](#) |
 
 ### Project Descriptions
 
 #### 🌦️ Weather App
 A real-time weather app that fetches live weather data for any city using a third-party weather API. Practices `fetch`, `async/await`, API integration, JSON parsing, error handling, and dynamic DOM updates based on API responses.
+
+> ⚠️ **Note:** Live demo requires a personal API key from [openweathermap.org](https://openweathermap.org). To run locally, replace `YOUR_API_KEY` in `script.js` with your own free key.
 
 ---
 
