@@ -32,7 +32,8 @@ Code-Yatra/
 │   ├── Stone_Paper_Scissors/
 │   └── To_Do_List App/
 └── Expert Level/
-    └── Weather App/
+    ├── Weather App/
+    └── Movie Search App/
 ```
 
 ---
@@ -125,6 +126,7 @@ Expert projects involving third-party APIs, asynchronous JavaScript, and real-wo
 | # | Project | Source Code | Live Demo |
 |---|---------|-------------|-----------|
 | 13 | 🌦️ Weather App | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Expert%20Level/Weather%20App) | [🔒 Requires API Key](#) |
+| 14 | 🎬 Movie Search App | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Expert%20Level/Movie%20Search%20App) | [🔒 Requires API Key](#) |
 
 ### Project Descriptions
 
@@ -132,6 +134,11 @@ Expert projects involving third-party APIs, asynchronous JavaScript, and real-wo
 A real-time weather app that fetches live weather data for any city using a third-party weather API. Practices `fetch`, `async/await`, API integration, JSON parsing, error handling, and dynamic DOM updates based on API responses.
 
 > ⚠️ **Note:** Live demo requires a personal API key from [openweathermap.org](https://openweathermap.org). To run locally, replace `YOUR_API_KEY` in `script.js` with your own free key.
+
+#### 🎬 Movie Search App
+A movie watchlist app that searches for any movie or TV show using the OMDB API and displays the title, year, genre, plot, poster, and IMDB rating. Supports adding movies to a personal watchlist with watched and remove functionality. Data is persisted using `localStorage` so your watchlist survives page refreshes. Practices `fetch`, `async/await`, DOM creation, `localStorage`, and event handling.
+
+> ⚠️ **Note:** Live demo requires a personal API key from [omdbapi.com](https://www.omdbapi.com). To run locally, replace `YOUR_API_KEY` in `app.js` with your own free key.
 
 ---
 
