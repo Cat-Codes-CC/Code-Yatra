@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+body {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #1f191a;
+  color: #fff;
+}
+
+h1 {
+  position: relative;
+  top: 20px;
+}
+
+#info {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+input {
+  padding: 10px 20px;
+  width: 410px;
+}
+
+input:focus {
+  outline: 2px solid #6a1aa3;
+  border-radius: 4px;
+}
+
+input:not(:placeholder-shown) {
+  font-size: 20px;
+}
+
+input::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.container {
+  position: relative;
+  bottom: 40px;
+  background-color: white;
+  height: 100vh;
+}
+
+.coloured-line {
+  background-color: #6a1aa3;
+  width: 100%;
+  height: 4px;
+  margin-top: 40px;
+}
+#up-next {
+  color: #6a1aa3;
+  font-weight: 350;
+  font-size: 40px;
+}
+
+.add-movie p {
+  color: #4a4a4a;
+  background-color: #f5f5f5;
+  padding: 20px 40px;
+  font-size: 16px;
+}
+
+.add-movie {
+  border-radius: 4px;
+  width: 400px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.disclaimer {
+  margin: auto;
+}
+
+.disclaimer p {
+  font-size: 14px;
+  color: #4a4a4a;
+  padding: 20px 40px;
+}
+
+.disclaimer a {
+  text-decoration: none;
+  color: #6a1aa3;
+}
+
+.movie-card img {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  bottom: 25px;
+  right: 120px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #6a1aa3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+  position: relative;
+  font-weight: 600;
+  bottom: 625px;
+}
+
+.movie-card {
+  position: relative;
+  bottom: 600px;
+}
+
+p.movie-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+}
+
+p.movie-year {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  font-family: "Source Sans 3", sans-serif;
+  position: relative;
+  bottom: 20px;
+}
+
+p.movie-genre {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+p.movie-plot {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+p.movie-rating {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.movie-info {
+  background-color: rgb(45, 43, 43);
+  position: relative;
+  bottom: 930px;
+  left: 800px;
+  width: 300px;
+  height: 300px;
+  border-radius: 4px;
+}
+
+button.watched-button {
+  position: relative;
+  left: 85px;
+  border-radius: 2px;
+  background: #fff;
+  color: rgb(69, 75, 77);
+
+}
+
+
+button.remove-button {
+  position: relative;
+  left: 85px;
+  border-radius: 2px;
+  background: #fff;
+  color: rgb(69, 75, 77);
+
+}
