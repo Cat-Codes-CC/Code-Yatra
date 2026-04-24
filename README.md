@@ -33,7 +33,9 @@ Code-Yatra/
 │   └── To_Do_List App/
 └── Expert Level/
     ├── Weather App/
-    └── Movie Search App/
+    ├── Movie Search App/
+    ├── AI Quote Generator/
+    └── Spotify Clone/
 ```
 
 ---
@@ -127,6 +129,8 @@ Expert projects involving third-party APIs, asynchronous JavaScript, and real-wo
 |---|---------|-------------|-----------|
 | 13 | 🌦️ Weather App | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Expert%20Level/Weather%20App) | [🔒 Requires API Key](#) |
 | 14 | 🎬 Movie Search App | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Expert%20Level/Movie%20Search%20App) | [🔒 Requires API Key](#) |
+| 15 | 🤖 AI Quote Generator | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Expert%20Level/AI%20Quote%20Generator) | [Live Demo](https://cat-codes-cc.github.io/Code-Yatra/Expert%20Level/AI%20Quote%20Generator/index.html) |
+| 16 | 🎵 Spotify Clone | [Source Code](https://github.com/Cat-Codes-CC/Code-Yatra/tree/main/Expert%20Level/Spotify%20Clone) | [Live Demo](https://cat-codes-cc.github.io/Code-Yatra/Expert%20Level/Spotify%20Clone/index.html) |
 
 ### Project Descriptions
 
@@ -135,7 +139,11 @@ A real-time weather app that fetches live weather data for any city using a thir
 
 > ⚠️ **Note:** Live demo requires a personal API key from [openweathermap.org](https://openweathermap.org). To run locally, replace `YOUR_API_KEY` in `script.js` with your own free key.
 
-#### 🎬 Movie Search App
+#### 🤖 AI Quote Generator
+An AI-powered quote generator that fetches unique, intelligent quotes using an AI API. Practices API integration, `fetch`, `async/await`, dynamic DOM updates, and working with AI-generated content.
+
+#### 🎵 Spotify Clone
+A pixel-perfect clone of the Spotify UI with a music player interface including sidebar navigation, song list, and playback controls. Practices advanced CSS layout, Flexbox, Grid, and building complex real-world UI from scratch.
 A movie watchlist app that searches for any movie or TV show using the OMDB API and displays the title, year, genre, plot, poster, and IMDB rating. Supports adding movies to a personal watchlist with watched and remove functionality. Data is persisted using `localStorage` so your watchlist survives page refreshes. Practices `fetch`, `async/await`, DOM creation, `localStorage`, and event handling.
 
 > ⚠️ **Note:** Live demo requires a personal API key from [omdbapi.com](https://www.omdbapi.com). To run locally, replace `YOUR_API_KEY` in `app.js` with your own free key.
