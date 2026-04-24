@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Be Vietnam Pro";
+  color: white;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.home {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  background-color: #1f1f1f;
+  background-image: url("img/home.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  cursor: pointer;
+}
+
+#music-input {
+  width: 400px;
+  color: azure;
+  background-color: black;
+  border-radius: 24px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-image: url("img/search.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Be Vietnam Pro";
+  text-indent: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+#music-input:focus {
+  outline: none;
+  border: 3px solid white;
+}
+
+.additional-features {
+  display: flex;
+  margin-left: auto;
+}
+
+.explore-premium {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 35px;
+  border-radius: 24px;
+  margin-right: 90px;
+  cursor: pointer;
+}
+
+.explore-premium p {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+  margin-top: 30px;
+}
+
+.install-app {
+  position: relative;
+  right: 60px;
+  cursor: pointer;
+}
+
+.install-app img {
+  display: inline;
+  margin-top: 5px;
+}
+
+.install-app p {
+  display: inline;
+  color: #b3b3b3;
+}
+
+.new {
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.new img {
+  width: 30px;
+}
+
+.friends-activity {
+  cursor: pointer;
+  position: relative;
+  right: 50px;
+}
+
+.friends-activity img {
+  width: 30px;
+}
+
+.account {
+  cursor: pointer;
+  width: 430px;
+  background-color: black;
+  border-radius: 24px;
+  padding: 10px 20px;
+  background-image: url("img/account-img.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Be Vietnam Pro";
+}
+
+.account {
+  width: 30px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.music-player-side {
+  height: 700px;
+  width: 70px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  margin-left: 5px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add {
+  margin-top: 40px;
+  height: 40px;
+  width: 40px;
+  background-color: #252525;
+  border-radius: 50%;
+  background-image: url("img/add.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.music-player-side .image {
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  background-image: url("img/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 20px;
+}
+
+.music-player-main-body {
+  height: max-content;
+  width: 1250px;
+  background-color: #ffffff1a;
+  border-radius: 8px;
+  margin-left: auto;
+  flex: -1;
+}
+
+.page-btn button {
+  border-radius: 16px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 5px;
+  border: none;
+  width: max-content;
+  font-family: "Be Vietnam Pro";
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+#all {
+  background-color: white;
+  color: black;
+  margin-left: 40px;
+}
+
+#musics,
+#podcasts {
+  background-color: #ffffff1a;
+  color: white;
+  border: none;
+}
+
+.recommendation,
+.made-for-you,
+.latest,
+.big-hit,
+.party {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+#information {
+  font-weight: 600;
+  margin-left: 40px;
+  font-size: 24px;
+  width: 100%;
+}
+
+.recommendation .image img,
+.made-for-you .image img,
+.latest .image img,
+.big-hit .image img,
+.party .image img {
+  margin-left: 40px;
+  border-radius: 4px;
+  width: 200px;
+  height: 210px;
+}
+
+#music-header {
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+#music-info {
+  color: #b3b3b3;
+  margin-left: 40px;
+}
+
+.faq {
+  display: flex;
+  justify-content: flex-start;
+  gap: 200px;
+  margin-left: 40px;
+  flex-wrap: wrap;
+}
+
+#highlight {
+  font-size: 16px;
+}
+
+#sub-division {
+  display: flex;
+  flex-direction: column;
+  color: #b3b3b3;
+}
+
+.functions {
+  margin-bottom: 200px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.functions p {
+  color: #b3b3b3;
+  display: inline-block;
+  margin-right: 60px;
+}
+
+hr {
+  background-color: #b3b3b3;
+}
+
+

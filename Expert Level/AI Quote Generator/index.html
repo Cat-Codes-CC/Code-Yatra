@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Quote Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ai-quote-generator-body">
+      <h1>AI Quote Generator</h1>
+      <div class="quote-container">
+        <p id="quote"></p>
+        <p id="quote-author"></p>
+      </div>
+      <button class="random-button" onclick="random_generateQuote()">
+        Generate Random Quote
+      </button>
+      <div class="keywords-quote">
+        <u>
+        <h3>Quotes Categories...</h3>
+        </u>
+        <div class="category-buttons">
+          <button id="motivational" onclick="getCategoryQuote('motivational')">
+            Motivation
+          </button>
+          <button id="life" onclick="getCategoryQuote('life')">Life</button>
+          <button id="love" onclick="getCategoryQuote('love')">Love</button>
+          <button id="wisdom" onclick="getCategoryQuote('wisdom')">
+            Wisdom
+          </button>
+          <button id="happiness" onclick="getCategoryQuote('happiness')">
+            Happiness
+          </button>
+          <button id="sadness" onclick="getCategoryQuote('sadness')">
+            Sadness
+          </button>
+          <button id="technology" onclick="getCategoryQuote('technology')">
+            Technology
+          </button>
+          <button id="science" onclick="getCategoryQuote('science')">
+            Science
+          </button>
+          <button id="success" onclick="getCategoryQuote('success')">
+            Success
+          </button>
+          <button id="freedom" onclick="getCategoryQuote('freedom')">
+            Freedom
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
